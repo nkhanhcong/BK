@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(anh,IntType),VarDecl(bananh,IntType),VarDecl(res,IntType)],[Assign(anh,IntLit(2)),Assign(bananh,BinaryOp(*,IntLit(2),IntLit(10))),Assign(res,BinaryOp(+,anh,bananh)),Call(io,writeInt,[res])]))]),ClassDecl(emlaai,[])])

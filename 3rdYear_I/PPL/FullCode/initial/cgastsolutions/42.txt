@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(multi,Instance,[param(n,IntType)],IntType,Block([],[Return(BinaryOp(+,n,IntLit(30)))])),MethodDecl(main,Static,[],VoidType,Block([VarDecl(x,IntType)],[Assign(x,BinaryOp(-,BinaryOp(+,IntLit(5),IntLit(4)),IntLit(3))),Call(io,writeStr,[StringLit("so cua ban in ra la ")]),Call(io,writeIntLn,[IntLit(40)])]))])])

@@ -1,0 +1,12 @@
+class Rectangle  { 
+	int getArea(length: int; width: int){
+		return length*width;
+	}
+}
+class TAPPLClass { void static main() {
+		a: Rectangle;
+		a:= new Rectangle();
+		io.writeIntLn(a.getArea(3,2));
+	}
+}
+

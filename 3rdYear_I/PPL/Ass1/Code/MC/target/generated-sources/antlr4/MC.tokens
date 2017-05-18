@@ -1,0 +1,9 @@
+HEX=1
+INT=2
+ASSIGN=3
+SEMI=4
+ADD=5
+ID=6
+WS=7
+'='=3
+';'=4

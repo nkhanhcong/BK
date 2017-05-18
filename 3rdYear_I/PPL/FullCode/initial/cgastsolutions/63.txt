@@ -1,0 +1,1 @@
+Program([ClassDecl(A,[MethodDecl(aa,Instance,[],VoidType,Block([],[Call(io,writeStrLn,[StringLit("InstanceMethod")])]))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(x,ClassType(A))],[Assign(x,NewExp(A,[])),Call(x,aa,[])]))])])

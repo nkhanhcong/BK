@@ -1,0 +1,8 @@
+class TAPPLClass { void static main() {
+		x,y:int;
+		x := 5;
+		y := 7;
+		if x > y then io.writeIntLn(x);
+		else io.writeIntLn(y);
+	}
+}

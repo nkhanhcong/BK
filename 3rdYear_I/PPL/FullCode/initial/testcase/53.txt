@@ -1,0 +1,9 @@
+class TAPPLClass {
+	
+	void static main() {
+    
+		final int i = 1;
+		if (i < 2) then io.writeFloatLn(1.2);
+
+	}
+}

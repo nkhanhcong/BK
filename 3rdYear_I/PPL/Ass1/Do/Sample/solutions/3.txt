@@ -1,0 +1,16 @@
+This	ID
+Lexer	ID
+recognises	ID
+strings	ID
+and	ID
+numbers	ID
+:	COLON
+hello	ID
+22	INTLIT
+goodbye	ID
+33	INTLIT
++	ADDOP
+2001	INTLIT
+*	MUL
+)	RB
+EOF

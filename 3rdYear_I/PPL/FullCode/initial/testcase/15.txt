@@ -1,0 +1,8 @@
+class TAPPLClass { void static main() {
+		io.writeStrLn("tomorrow");
+	}
+}
+
+class oncemore {
+	
+}

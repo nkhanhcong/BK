@@ -1,0 +1,6 @@
+class TAPPLClass{
+	static final float g = 9.8;
+	void static main(){
+		io.writeFloat(TAPPLClass.g);
+	}
+}

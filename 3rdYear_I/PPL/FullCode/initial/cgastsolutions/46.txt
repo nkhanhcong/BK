@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(str,StringType)],[Assign(str,StringLit("This is a quote \"\"")),Call(io,writeStr,[str])]))])])

@@ -1,0 +1,7 @@
+class TAPPLClass { void static main() {
+		final string a ="Angel";
+		final string b = " with the shotgun";
+		io.writeStr(a^b);
+	}
+}
+

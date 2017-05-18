@@ -1,0 +1,14 @@
+class TAPPLClass
+{
+   x:int;
+   void static main()
+   {
+      t:int;
+      s:string;
+      ss:string;
+      t:=3;
+      s:="abc";
+      ss:=s^s;
+      io.writeStrLn(ss); 
+   }
+}

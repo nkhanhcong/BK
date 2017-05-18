@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(theAnswerForLifeUniverseAndEverything,Static,[],IntType,Block([],[Return(IntLit(42))])),MethodDecl(main,Static,[],VoidType,Block([],[Call(io,writeIntLn,[CallExp(TAPPLClass,theAnswerForLifeUniverseAndEverything,[])])]))])])

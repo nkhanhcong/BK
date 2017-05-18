@@ -1,0 +1,11 @@
+class TAPPLClass { void static main(){
+x:int;
+y:int;
+x:=4;
+y:=5;
+if 1>2 then
+	if x>y then
+		x:=y;
+io.writeIntLn(x);
+io.writeInt(y);
+}}

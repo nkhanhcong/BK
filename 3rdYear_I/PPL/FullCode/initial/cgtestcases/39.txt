@@ -1,0 +1,11 @@
+%% test cast I2F
+
+class TAPPLClass { void static main() {
+		b,c: float;
+		b := 343.57+135;
+		c := 121 + 15.6;
+    		io.writeFloatLn(b);
+    		io.writeFloatLn(c);
+	}
+	
+}

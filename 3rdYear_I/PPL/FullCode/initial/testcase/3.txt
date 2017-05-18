@@ -1,0 +1,6 @@
+class TAPPLClass {
+	static final int abcdef = 123;
+	void static main() {
+		io.writeIntLn(this.abcdef); %%123
+	}
+}

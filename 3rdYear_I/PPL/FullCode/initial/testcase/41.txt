@@ -1,0 +1,9 @@
+class TAPPLClass {
+int multi(n:int){
+return n+30;}
+void static main(){
+x:int;
+x := 5+4-3;
+io.writeStr("chao mung ban den voi ABCCC");
+}
+}

@@ -1,0 +1,1 @@
+Program([ClassDecl(A,[AttributeDecl(Instance,ConstDecl(b,IntType,IntLit(1)))]),ClassDecl(A1,A,[]),ClassDecl(TAPPLClass,A1,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(x,ClassType(TAPPLClass)),VarDecl(a,IntType)],[Assign(x,NewExp(TAPPLClass,[])),Assign(a,FieldAccess(x,b)),Call(io,writeIntLn,[a])]))])])

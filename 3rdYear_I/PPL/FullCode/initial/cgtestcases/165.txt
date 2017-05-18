@@ -1,0 +1,7 @@
+class TAPPLClass { void static main() {
+
+s:string;
+s := "Hello world!";
+io.writeStr(s);
+}
+}

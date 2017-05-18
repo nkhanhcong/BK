@@ -1,0 +1,18 @@
+%% Dragon
+class TAPPLClass {
+	string XXX()
+	{
+		final string a = "hi";
+		final string b = "hi";
+		return a^b;
+	}
+
+	void static main()
+	{
+		c : TAPPLClass;
+		d : string;
+		c := new TAPPLClass();
+		d := c.XXX();
+		io.writeStr(d);
+	}
+}

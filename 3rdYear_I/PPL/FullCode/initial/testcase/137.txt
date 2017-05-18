@@ -1,0 +1,16 @@
+class TAPPLClass
+{
+   x:int;
+   void static main()
+   {
+      b:boolean;
+      t:float;
+      s:string;
+      ss:string;
+      t:=3.5;
+      s:="abc";
+      ss:=s^s;
+      b:=true;
+      io.writeBoolLn(b); 
+   }
+}

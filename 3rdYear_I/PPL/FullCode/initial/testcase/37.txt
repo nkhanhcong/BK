@@ -1,0 +1,11 @@
+class TAPPLClass { void static main() {
+		b: int;
+    		if TAPPLClass.fun(1,3)>2 then io.writeStrLn("yes");
+	}
+	int static fun(x: int; y: int){
+		k: int;
+		m,n: boolean;
+		io.writeIntLn(x);
+		return y;
+	}
+}

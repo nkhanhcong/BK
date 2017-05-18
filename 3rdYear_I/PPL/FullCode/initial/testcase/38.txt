@@ -1,0 +1,12 @@
+class TAPPLClass { void static main() {
+		final int b = TAPPLClass.fun(9,32);
+    		if b <= 23 then io.writeStrLn("yes");
+		else io.writeStrLn("no");
+	}
+	int static fun(x: int; y: int){
+		k: int;
+		m,n: boolean;
+		io.writeIntLn(x);
+		return y;
+	}
+}

@@ -1,0 +1,16 @@
+class TAPPLClass { void static main() {
+		a: int;
+		b: float;
+		res: float;
+
+		a := 5;
+		b := 6.4/2;
+		res := a + b;
+
+		io.writeFloatLn(res);
+	}
+}
+
+class oncemore {
+	
+}

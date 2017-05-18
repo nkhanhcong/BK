@@ -1,0 +1,10 @@
+class TAPPLClass{
+	int static sum(x,y:int){
+		return x+y;
+	}
+	void static main(){
+		q:int;
+		q := TAPPLClass.sum(21,13);
+		io.writeIntLn(q);
+	}
+}

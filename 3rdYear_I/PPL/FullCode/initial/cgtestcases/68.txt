@@ -1,0 +1,7 @@
+class TAPPLClass { void static main(){
+		a:int;
+		final int b = 13;
+		a := 9;
+		io.writeInt(a + b + 1);
+	}
+}

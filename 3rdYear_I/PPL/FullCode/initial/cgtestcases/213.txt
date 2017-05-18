@@ -1,0 +1,6 @@
+class TAPPLClass { void static main(){
+		final string xyz = "def";
+		final string x = "xyz" ^ xyz;
+		io.writeStr(x);
+	}
+}

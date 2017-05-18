@@ -1,0 +1,11 @@
+class TAPPLClass{
+  int static add(n:int){
+	return n + 5;
+  }
+  void static main(){
+     temp, b:int;
+     temp := 8;
+     b := TAPPLClass.add(temp);
+     io.writeInt(b);
+ }
+}

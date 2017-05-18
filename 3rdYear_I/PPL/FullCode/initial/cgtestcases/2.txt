@@ -1,0 +1,17 @@
+class ABC {
+	static final int one = 1;
+	int static func() {return 1;}
+}
+
+class TAPPLClass extends ABC {
+	b: string;
+	void static main() {
+		b: int;
+		final int a = 0;
+		x: TAPPLClass;
+		x:= new TAPPLClass();
+		b := x.func();
+		io.writeIntLn(this.one);
+		io.writeIntLn(b);
+	}
+}

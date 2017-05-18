@@ -1,0 +1,8 @@
+﻿  assignment2.cpp
+f:\workingspace\visual\assdhmt\assdhmt\assignment2.cpp(191): warning C4018: '<': signed/unsigned mismatch
+f:\workingspace\visual\assdhmt\assdhmt\assignment2.cpp(292): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+f:\workingspace\visual\assdhmt\assdhmt\assignment2.cpp(1061): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+f:\workingspace\visual\assdhmt\assdhmt\assignment2.cpp(1097): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+f:\workingspace\visual\assdhmt\assdhmt\assignment2.cpp(1137): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+  AssDHMT.vcxproj -> F:\WorkingSpace\Visual\AssDHMT\Debug\AssDHMT.exe
+  AssDHMT.vcxproj -> F:\WorkingSpace\Visual\AssDHMT\Debug\AssDHMT.pdb (Full PDB)

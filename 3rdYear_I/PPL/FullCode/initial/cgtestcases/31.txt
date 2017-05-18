@@ -1,0 +1,6 @@
+class TAPPLClass { void static main(){
+a:int;
+a:=3;
+io.writeIntLn(a);
+}
+}

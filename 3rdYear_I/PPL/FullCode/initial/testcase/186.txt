@@ -1,0 +1,6 @@
+class TAPPLClass { void static main(){
+		i:string;
+		i := "This is a program in BKOOL";
+		io.writeStrLn(i);
+	}
+}

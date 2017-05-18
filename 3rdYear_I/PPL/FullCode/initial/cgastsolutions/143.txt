@@ -1,0 +1,1 @@
+Program([ClassDecl(vegeta,[AttributeDecl(Instance,ConstDecl(sex,StringType,StringLit("male")))]),ClassDecl(bulma,[AttributeDecl(Instance,ConstDecl(sex,StringType,StringLit("female")))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(cadic,ClassType(vegeta))],[Assign(cadic,NewExp(vegeta,[])),Call(io,writeStr,[FieldAccess(cadic,sex)])]))])])

@@ -1,0 +1,6 @@
+class TAPPLClass { void static main() {
+		b:boolean;
+		b:=true;
+		io.writeBool(b);
+	}
+}

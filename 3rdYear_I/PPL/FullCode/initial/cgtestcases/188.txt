@@ -1,0 +1,8 @@
+class TAPPLClass { void static main(){
+		i:int;
+		f : float;
+		i := 10;
+		f := 10.2;
+		io.writeFloat(f);
+	}	
+}

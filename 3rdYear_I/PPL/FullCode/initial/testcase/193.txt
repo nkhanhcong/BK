@@ -1,0 +1,10 @@
+class a {
+	final string b = "hello";
+}
+
+class TAPPLClass { void static main() {
+		d: a;
+		d := new a();
+		io.writeStr(d.b);
+	}
+}

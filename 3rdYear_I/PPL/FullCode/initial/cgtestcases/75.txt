@@ -1,0 +1,16 @@
+class TAPPLClass { void static main() {
+		a: int;
+		b: int;
+		res: int;
+
+		a := 4;
+		b := 4*4;
+		res := a*b*4;
+
+		io.writeInt(res);
+	}
+}
+
+class oncemore {
+	
+}

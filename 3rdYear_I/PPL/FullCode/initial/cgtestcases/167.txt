@@ -1,0 +1,8 @@
+
+class TAPPLClass { void static main() {
+
+n:int;
+n := 3*2;
+io.writeInt(n);
+}
+}

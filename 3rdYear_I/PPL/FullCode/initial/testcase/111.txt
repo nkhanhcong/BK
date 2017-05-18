@@ -1,0 +1,8 @@
+class TAPPLClass { void static main(){
+     b: float;
+     b := 5.4;
+     if(b < 6) then b:= b + 4;
+	else b := b - 2;
+     io.writeFloat(b);
+   }
+}

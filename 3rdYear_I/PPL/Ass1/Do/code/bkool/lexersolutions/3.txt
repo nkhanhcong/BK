@@ -1,0 +1,5 @@
+abc	ID
+!	NOT
+class	CLASS
+}	RP
+<EOF>	EOF

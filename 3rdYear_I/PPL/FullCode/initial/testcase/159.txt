@@ -1,0 +1,6 @@
+class TAPPLClass {
+	static final int x = 5;
+	void static main() {
+    		io.writeInt(this.x);
+	}
+}

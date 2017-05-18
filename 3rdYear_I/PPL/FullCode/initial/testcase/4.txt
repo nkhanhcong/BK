@@ -1,0 +1,14 @@
+
+class TAPPLClass {
+	c:int;
+	f:float;
+	void static main() {
+ 
+	   x:int;
+	   y:int;
+	   y:=2;
+	   x:=y+3;
+           io.writeIntLn(x+y);
+	   io.writeStr("hello");
+}
+}

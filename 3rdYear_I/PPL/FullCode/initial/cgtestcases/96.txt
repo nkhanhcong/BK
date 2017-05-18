@@ -1,0 +1,8 @@
+class TAPPLClass { void static main() {
+		io.writeInt(145);
+	}
+}
+
+class vvv {
+	
+}

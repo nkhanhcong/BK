@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[AttributeDecl(Static,ConstDecl(g,FloatType,FloatLit(9.8))),MethodDecl(main,Static,[],VoidType,Block([],[Call(io,writeFloat,[FieldAccess(TAPPLClass,g)])]))])])

@@ -1,0 +1,12 @@
+class TAPPLClass { void static main() {
+		a: int;
+		b: float;
+		res: float;
+
+		a := 4;
+		b := 5/2;
+		res := a + b;
+
+		io.writeFloatLn(res);
+	}
+}

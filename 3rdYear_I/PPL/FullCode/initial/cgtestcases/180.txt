@@ -1,0 +1,7 @@
+class TAPPLClass { void static main(){
+		b,c,d:int;
+		b:=4;
+		c:=5;
+		d:=(b+c)-3;
+	}
+}

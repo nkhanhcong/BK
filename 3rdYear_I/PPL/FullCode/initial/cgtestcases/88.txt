@@ -1,0 +1,11 @@
+class Example {
+	boolean demo(){
+		return true;
+	}
+}
+class TAPPLClass { void static main(){
+		e:Example;
+		e:= new Example();
+		io.writeBool(e.demo());
+	}
+}

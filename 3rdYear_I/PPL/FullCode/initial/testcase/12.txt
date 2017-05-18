@@ -1,0 +1,8 @@
+class TAPPLClass { void static main() {
+		io.writeInt(1);
+	}
+}
+
+class oncemore {
+	
+}

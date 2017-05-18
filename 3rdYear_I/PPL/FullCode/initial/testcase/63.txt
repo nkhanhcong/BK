@@ -1,0 +1,12 @@
+class A {
+	void aa(){
+		io.writeStrLn("InstanceMethod");
+	}
+}
+class TAPPLClass {
+	void static main(){
+		x:A;
+		x:=new A();
+		x.aa();
+	}
+}

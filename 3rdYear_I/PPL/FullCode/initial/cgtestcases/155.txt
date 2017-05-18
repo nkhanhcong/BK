@@ -1,0 +1,14 @@
+class A{}
+class B{
+	int static sum(a,b:int){
+		e: int;
+		e := a +b;
+		return e;
+	}
+}
+class TAPPLClass { void static main() {
+		i: B;
+		i := new B();
+		if (i.sum(1,2)==3) then io.writeInt(1); else io.writeInt(2);
+	}
+}

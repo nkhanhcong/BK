@@ -1,0 +1,193 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+%\usepackage[english,vietnam]{babel}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline,fancyhdr}
+\usepackage{lastpage}
+
+\usepackage{ulem}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{graphicx}							% Standard graphics package
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,backgrounds}
+
+%\usepackage{pstcol} 								% PSTricks with the standard color package
+
+
+\newcounter{numproblem}
+\newenvironment{problem}{\addtocounter{numproblem}{1}
+\noindent{\large \bf Problem \thenumproblem. }}{}
+
+%\newcounter{numexercise}
+%\newenvironment{exercise}{\addtocounter{numexercise}{1}
+%\noindent{\large \bf Câu \thenumexercise. \\}}{}
+
+%\newcounter{numsolution}
+%\newenvironment{solution}{
+%\noindent{\large \bf Lời giải.}\color{blue}}{~~\hfill$\Box$\\}
+
+\newif\ifshortversion
+%\shortversiontrue 	% hide this line when shortversion==false
+\newcommand\version[2]{\ifshortversion #1 \else #2 \fi}
+\newcommand\code[1]{\textit{#1}}
+\newcommand\grammar[1]{\textit{#1}}
+\newcommand{\bslash}{\char`\\}
+
+%%ensembles de nombres
+\def\NP{$\mathcal{NP}$}
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\R{\mathbb{R}}
+\def\Q{\mathbb{Q}}
+
+
+%\usepackage{fancyhdr}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+%\noindent
+HCMC University of Technology\\
+Faculty of Computer Science \& Engineering\\
+\end{center}
+
+\vspace{1cm}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=30mm]{/Users/nhphung/Documents/MyPictures/images/logo.png}
+\end{center}
+\end{figure}
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tabular}{c}
+\hline
+\\
+\textbf{{\Huge Assignment 1}}\\
+\\
+\textbf{{\Large Recognizer}}\\
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{5cm}
+
+\begin{minipage}[t]{0.60\linewidth}
+Author
+\end{minipage}
+\begin{minipage}[t]{0.40\linewidth}
+Dr. Nguyen Hua Phung\\\\
+\end{minipage}
+
+\begin{center}
+\today
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\tableofcontents %summary insertion
+
+\newpage
+
+
+
+\begin{center}
+%{\LARGE \bf TOÁN RỜI RẠC 1}\\ \vspace{5mm}
+{\Large \bf Assignment 1 \\\vspace{5mm}version 1.0}
+\end{center}
+
+
+
+\vspace*{1cm}
+%\setcounter{numexercise}{0}
+%\setcounter{numsolution}{0}
+\setcounter{numproblem}{0}
+
+After completing this assignment, you will be able to 
+
+\begin{itemize}
+\item define formally lexicon of a programming language.
+\item use ANTLR to implement a lexer for a programming language.
+\item define formally grammar of a programming language.
+\item use ANTLR to implement a recognizer for a programming language.
+%\item create an AST for a program.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Specification}
+In this assignment, you are required to write a lexer and a recognizer for a program written in BKOOL. To complete this assignment, you need to:
+\begin{itemize}
+\item read carefully the specification of BKOOL language
+\item Download and unzip file assignment1.zip, which contains Main.scala, BKOOL.g4 and some other script for your convience.
+\item Modify BKOOL.g4. \textbf{Please fill in your id in the headers of these files}.
+\end{itemize}
+This assignment is divided two phases: lexer phase and recognizer phase. \textbf{These phases are assessed independently.}
+\subsection{Phase 1: Lexer}
+In this phase, you are required to write a lexer for a program written in ANTLR. To complete this phase, you need to:
+\begin{itemize}
+\item Modify BKOOL.g4 to detect tokens in BKOOL language. 
+%\item For integer, boolean or real literals, print “IntLit:  ”, “BooleanLit: ” or “FloatLit: ”, respectively, and the literals (as in expectedSol/1.txt).
+%\item \sout{For string literals, replace the single quote by the double quote when print them out (as in expectedSol/2.txt)}
+%\item For all other keywords and delimiters, just print them out (as in expectedSol/1.txt)
+%\item For identifiers, please print “identifier ” and the identifier (as in expectedSol/1.txt)
+\item For lexical errors, please print out as follows:
+\begin{itemize}
+\item "ErrorToken "+ <char>: when the lexer detects an unrecognized character
+\item "Unclosed string: "+<unclosed string>: when the lexer detects an unterminated string.
+\item "Illegal escape in string: "+<wrong string>: when the lexer detects an illegal escape in string. The wrong string is from the beginning of the string to the illegal escape.
+\end{itemize}
+\item You can assume that there is only one error in each test case.
+\end{itemize}
+
+\subsection{Phase 2: Recognizer}
+In this phase, you are required to write a recognizer for a program written in BKOOL. To complete this phase, you need to:
+\begin{itemize}
+\item Modify BKOOL.g4.
+\item You can assume that there is at most one error in each test case.
+\end{itemize}
+
+
+\section{Requirements}
+The operating system when cheking your submission is Linux. Make sure that your program can be compiled and run in the environment.\\
+%All input and output are from and to the console.\\
+Note that you must NOT compress your files when submit them. You must submit the following files:
+\begin{itemize}
+\item Phase 1:
+\begin{itemize}
+\item BKOOL.g4: the lexer
+\item The deadline of phase 1 is 16:00 12th Sep. 2016.
+\end{itemize}
+\item Phase 2:
+\begin{itemize}
+\item BKOOL.g4: the recogniser
+\item The deadline of phase 2 is 16:00 19th Sep. 2016.
+\item Lexer is also checked in this phase.
+\end{itemize}
+
+\item Result = min(Lexer1,Lexer2) + Recogniser
+\end{itemize}
+You must complete the assignment by yourself and do not let your work seen by someone else, otherwise, you will be punished by the university rule for plagiarism. 
+\end{document}
+
+

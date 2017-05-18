@@ -1,0 +1,14 @@
+class Person{
+	age: int;
+	void intro(){
+		io.writeStr("I am ");
+		io.writeInt(this.age);
+	}
+}
+class TAPPLClass { 
+	void static main(){
+		thatGuy: Person;
+		thatGuy := new Person(20);
+		thatGuy.intro();
+	}
+}

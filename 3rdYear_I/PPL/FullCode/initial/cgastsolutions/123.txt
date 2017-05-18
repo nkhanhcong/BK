@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(str1,StringType),VarDecl(str2,StringType)],[Assign(str1,StringLit("Ha")),Assign(str2,StringLit("Noi")),Call(io,writeStrLn,[BinaryOp(^,str1,str2)])]))])])

@@ -1,0 +1,14 @@
+class Shape {
+	int b(a:int;c:int;f:int){
+		return a +c - f;
+	}
+	int add(){
+		return this.b(1,2,3);
+	}
+}
+class TAPPLClass { void static main(){
+		e:Shape;
+		e:=new Shape();
+		io.writeInt(e.add());
+	}
+}

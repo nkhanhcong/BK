@@ -1,0 +1,10 @@
+class TAPPLClass { void static main() {
+		em: boolean;
+		em := true;
+		io.writeBoolLn(em);
+	}
+}
+
+class emngaytho {
+	
+}

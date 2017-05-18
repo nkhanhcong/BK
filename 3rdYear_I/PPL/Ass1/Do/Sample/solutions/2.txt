@@ -1,0 +1,6 @@
+0927	INTLIT
+0	INTLIT
+x234	ID
+xcbf	ID
+x	ID
+EOF

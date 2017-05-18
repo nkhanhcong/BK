@@ -1,0 +1,7 @@
+class TAPPLClass {
+	void static main(){
+		str:string;
+		str:=io.readStr();
+		io.writeStr(str);
+	}
+}

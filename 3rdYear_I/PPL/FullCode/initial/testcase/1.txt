@@ -1,0 +1,16 @@
+class A {
+	final int b = 1;
+}
+
+class A1 extends A {}
+
+class TAPPLClass extends A1 {
+	
+	void static main() {
+		x: TAPPLClass;
+		a: int;
+		x := new TAPPLClass();
+		a := x.b;
+		io.writeIntLn(a);
+	}
+}

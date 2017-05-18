@@ -1,0 +1,9 @@
+class yesterday {
+	a: int;
+	b: float;
+}
+
+class TAPPLClass { void static main() {
+		io.writeIntLn(111);
+	}
+}

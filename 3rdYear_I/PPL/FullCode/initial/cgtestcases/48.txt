@@ -1,0 +1,14 @@
+class TAPPLClass { void static main() {
+		a, b: int;
+		s: int;
+		a:= 5;
+		b:= 7;
+		
+		if a > b then
+			s:= a + b;
+		else
+			s:= a - b;
+			
+		io.writeInt(s);
+	}
+}

@@ -1,0 +1,9 @@
+class hhh {
+	var1: int;
+	var2: float;
+}
+
+class TAPPLClass { void static main() {
+		io.writeIntLn(145);
+	}
+}

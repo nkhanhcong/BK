@@ -1,0 +1,6 @@
+class TAPPLClass { void static main() {
+		a: string;
+		a := "ABC";
+		io.writeStrLn(a);
+	}
+}

@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[AttributeDecl(Static,ConstDecl(x,IntType,IntLit(5))),MethodDecl(main,Static,[],VoidType,Block([],[Call(io,writeInt,[FieldAccess(Self(),x)])]))])])

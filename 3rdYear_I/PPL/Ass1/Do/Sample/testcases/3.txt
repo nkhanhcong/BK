@@ -1,0 +1,2 @@
+This Lexer recognises strings and numbers: hello 22 goodbye 33 + 2001
+(*cong (*)*)

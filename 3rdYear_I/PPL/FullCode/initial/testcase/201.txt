@@ -1,0 +1,4 @@
+class TAPPLClass { void static main() {
+		io.writeFloat(1.0+1*2\3-1.0/55);
+	}
+}

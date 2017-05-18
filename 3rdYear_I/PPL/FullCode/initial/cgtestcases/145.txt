@@ -1,0 +1,9 @@
+class TAPPLClass {
+	n, b:float;
+	arr : int[5];
+	void static main(){ 
+		x:int;
+		x := io.readInt();
+		io.writeIntLn(1+5);
+	}
+}

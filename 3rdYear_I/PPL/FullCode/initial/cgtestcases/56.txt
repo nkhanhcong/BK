@@ -1,0 +1,9 @@
+class TAPPLClass { 
+  int static theAnswerForLifeUniverseAndEverything() {
+    return 42;
+  }
+
+  void static main() {
+    io.writeIntLn(TAPPLClass.theAnswerForLifeUniverseAndEverything());
+  }
+}

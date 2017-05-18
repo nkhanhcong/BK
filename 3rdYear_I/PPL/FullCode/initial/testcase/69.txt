@@ -1,0 +1,11 @@
+class TAPPLClass{
+	a:int;
+	c,b:float;
+	static final string d = "test1";
+	void static main (){
+		abc:int;
+		abc := 1;
+		io.writeIntLn(abc);
+	}
+}
+%%1

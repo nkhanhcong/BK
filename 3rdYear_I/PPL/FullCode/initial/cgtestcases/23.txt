@@ -1,0 +1,5 @@
+class TAPPLClass { void static main() {
+		final float x = 2;
+		io.writeFloatLn(x);
+	}
+}

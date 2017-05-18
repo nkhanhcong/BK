@@ -1,0 +1,10 @@
+class TAPPLClass {
+	void static main(){
+		x:int;
+		x:=io.readInt();
+		if (x%2==0) then
+			io.writeStrLn("Even");
+		else
+			io.writeStrLn("Odd");
+	}
+}

@@ -1,0 +1,1 @@
+Program([ClassDecl(hhh,[AttributeDecl(Instance,VarDecl(var1,IntType)),AttributeDecl(Instance,VarDecl(var2,FloatType))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([],[Call(io,writeIntLn,[IntLit(145)])]))])])

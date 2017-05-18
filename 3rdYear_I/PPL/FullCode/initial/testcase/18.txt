@@ -1,0 +1,10 @@
+class TAPPLClass { void static main() {
+		a: boolean;
+		a := true;
+		io.writeBool(a);
+	}
+}
+
+class oncemore {
+	
+}

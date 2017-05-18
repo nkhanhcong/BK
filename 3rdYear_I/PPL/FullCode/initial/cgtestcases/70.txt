@@ -1,0 +1,13 @@
+class WaMeUp {
+	a: int;
+	b: float;
+}
+
+class TAPPLClass { void static main() {
+		a: int;
+		b: int;
+		a:=1;
+		b:=2;
+		io.writeInt(a+b);
+	}
+}

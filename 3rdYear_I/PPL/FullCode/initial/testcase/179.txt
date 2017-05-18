@@ -1,0 +1,6 @@
+class TAPPLClass { void static main() {
+    final string hello = "Hello";
+    final string world = "World";
+    io.writeStrLn(hello ^ " " ^ world ^ "!");
+  }
+}

@@ -1,0 +1,14 @@
+class TAPPLClass { void static main() {
+		anh: float;
+		anh := 199.99;
+		io.writeFloat(anh);
+	}
+}
+
+class emvotinh {
+	
+}
+
+class anhvotinh extends emvotinh {
+	
+}

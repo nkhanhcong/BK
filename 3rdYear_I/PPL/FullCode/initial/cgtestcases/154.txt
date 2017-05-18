@@ -1,0 +1,4 @@
+class TAPPLClass { void static main() {
+		if (1 == 2) then io.writeInt(5); else io.writeInt(6);
+	}
+}

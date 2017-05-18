@@ -1,0 +1,7 @@
+class abc {
+	static final string str = "abc";
+}
+class TAPPLClass { void static main() {
+		io.writeStr(abc.str);
+	}
+}

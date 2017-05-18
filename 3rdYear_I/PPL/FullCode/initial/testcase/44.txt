@@ -1,0 +1,16 @@
+class TAPPLClass {
+a : ass2;
+int multi(n:int){
+return n+30;}
+void static main(){
+x:int;
+x := 5-3*2;
+io.writeStr("chuoi cua ban in ra la ");
+io.writeStr("ok");
+}
+}
+class ass2 extends io{
+int multi(n:int){
+
+return n*10;}
+}

@@ -1,0 +1,8 @@
+class TAPPLClass{
+	n: int;
+	b,c : float;
+	static final int d = 2;
+	void static main() {
+		io.writeIntLn(this.d);
+	}
+}

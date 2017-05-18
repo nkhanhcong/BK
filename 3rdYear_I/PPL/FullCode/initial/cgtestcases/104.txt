@@ -1,0 +1,16 @@
+class TAPPLClass { void static main() {
+		anh: int;
+		bananh: int;
+		res: int;
+
+		anh := 2;
+		bananh := 2*10;
+		res := anh + bananh;
+
+		io.writeInt(res);
+	}
+}
+
+class emlaai {
+	
+}

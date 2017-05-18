@@ -1,0 +1,7 @@
+class TAPPLClass { void static main () {
+		io.writeStrLn("hello");
+		io.writeInt(2);
+		io.writeStr(" ");
+		io.writeFloat(3.32);
+	}
+}

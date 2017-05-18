@@ -1,0 +1,1 @@
+Program([ClassDecl(Person,[AttributeDecl(Instance,VarDecl(age,IntType)),MethodDecl(intro,Instance,[],VoidType,Block([],[Call(io,writeStr,[StringLit("I am ")]),Call(io,writeInt,[FieldAccess(Self(),age)])]))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(thatGuy,ClassType(Person))],[Assign(thatGuy,NewExp(Person,[IntLit(20)])),Call(thatGuy,intro,[])]))])])

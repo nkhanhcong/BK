@@ -1,0 +1,9 @@
+class TAPPLClass {
+	void static main() {
+		str1:string;
+		str2:string;
+		str1:="Ha";
+		str2:="Noi";
+		io.writeStrLn(str1^str2);
+	}
+}

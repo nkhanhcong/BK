@@ -1,0 +1,13 @@
+class vegeta {
+	final string sex = "male";
+}
+
+class bulma{
+    final string sex = "female";
+}
+class TAPPLClass { void static main() {
+        cadic: vegeta;
+        cadic := new vegeta();
+        io.writeStr(cadic.sex);
+    }
+}

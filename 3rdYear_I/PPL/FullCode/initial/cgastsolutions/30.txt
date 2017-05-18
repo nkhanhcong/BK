@@ -1,0 +1,1 @@
+Program([ClassDecl(Rectangle,[MethodDecl(getArea,Instance,[param(length,IntType),param(width,IntType)],IntType,Block([],[Return(BinaryOp(*,length,width))]))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(a,ClassType(Rectangle))],[Assign(a,NewExp(Rectangle,[])),Call(io,writeIntLn,[CallExp(a,getArea,[IntLit(3),IntLit(2)])])]))])])

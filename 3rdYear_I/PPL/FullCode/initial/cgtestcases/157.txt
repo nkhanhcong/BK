@@ -1,0 +1,10 @@
+class TAPPLClass { void static main() {
+		io.writeIntLn(1 + 2);
+	}
+}
+
+class Utils {
+	int add(x: int; y: int) {
+		return x + y;
+	}
+}

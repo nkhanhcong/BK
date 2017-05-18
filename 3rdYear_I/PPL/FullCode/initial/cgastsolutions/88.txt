@@ -1,0 +1,1 @@
+Program([ClassDecl(Example,[MethodDecl(demo,Instance,[],BoolType,Block([],[Return(BoolLit(true))]))]),ClassDecl(TAPPLClass,[MethodDecl(main,Static,[],VoidType,Block([VarDecl(e,ClassType(Example))],[Assign(e,NewExp(Example,[])),Call(io,writeBool,[CallExp(e,demo,[])])]))])])

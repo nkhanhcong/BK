@@ -1,0 +1,1 @@
+Program([ClassDecl(TAPPLClass,[MethodDecl(sum,Static,[param(x,IntType),param(y,IntType)],IntType,Block([],[Return(BinaryOp(+,x,y))])),MethodDecl(main,Static,[],VoidType,Block([VarDecl(q,IntType)],[Assign(q,CallExp(TAPPLClass,sum,[IntLit(21),IntLit(13)])),Call(io,writeIntLn,[q])]))])])

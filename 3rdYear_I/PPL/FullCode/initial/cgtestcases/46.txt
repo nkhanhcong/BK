@@ -1,0 +1,6 @@
+class TAPPLClass { void static main(){
+		str: string;
+		str:= "This is a quote \"\"";
+		io.writeStr(str);
+	}
+}

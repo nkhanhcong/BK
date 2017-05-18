@@ -1,0 +1,16 @@
+class TAPPLClass { void static main() {
+		me: int;
+		you: float;
+		res: float;
+
+		me := 22;
+		you := 9/2;
+		res := me + you;
+
+		io.writeFloatLn(res);
+	}
+}
+
+class uhanhvedi {
+	
+}

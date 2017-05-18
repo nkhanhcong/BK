@@ -1,0 +1,10 @@
+class TAPPLClass {
+int multi(n:int){
+return n+30;}
+void static main(){
+x:int;
+x := 5-3*2;
+io.writeStr("so cua ban in ra la ");
+io.writeIntLn(x);
+}
+}
